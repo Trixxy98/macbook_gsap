@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import ProductViewer from './components/ProductViewer'
 import { ScrollTrigger} from 'gsap/all'
 import gsap from 'gsap'
+import Performance from './components/Performance'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -13,6 +14,7 @@ const App = () => {
         <Navbar />
         <Hero />
         <ProductViewer />
+        <Performance/>
     </main>
   )
 }
